@@ -12,13 +12,10 @@ class App extends Component {
 	constructor() {
 		super();
 		this.state = {
-			advice: '',
-
-			// Error Handling
-
-			wishEmpty: false
-		};
-	}
+      advice: '',		
+    }
+  }
+  
 	handleSubmit = userWish => {
 		const userInput = userWish;
 

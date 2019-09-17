@@ -1,5 +1,7 @@
 // COLORS
 
+
+
 $primary: #e2804d;
 $secondary: #3e000e;
 $tertiary: #df96cc;
@@ -48,10 +50,12 @@ h1 {
   text-align: center;
 }
 
-
-button:focus,
-input:focus {
+input:focus  {
   outline: none;
   box-shadow: 0 0 0 0.5px #ffffff, 0 0 3px 3px $tertiary;
+}
+
+button, button:focus, button:hover {
+  border: none;
 }
 
